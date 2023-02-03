@@ -1,0 +1,201 @@
+2023-02-03 00:10:21.843  INFO 8328 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-03 00:10:21.850  INFO 8328 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-03 00:10:21.861  INFO 8328 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-03 00:10:21.868  INFO 8328 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-03 00:10:21.934  INFO 8328 --- [restartedMain] HotelBookingsManagementSystemApplication : Starting HotelBookingsManagementSystemApplication using Java 17.0.5 on INLEN8520069523 with PID 8328 (C:\MySpringBootWork\HotelBookingsManagementSystem\bin\main started by riebim in C:\MySpringBootWork\HotelBookingsManagementSystem)
+2023-02-03 00:10:21.935  INFO 8328 --- [restartedMain] HotelBookingsManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-03 00:10:22.179  INFO 8328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-03 00:10:22.179  INFO 8328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-03 00:10:22.195  INFO 8328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-03 00:10:22.227  INFO 8328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-03 00:10:22.233  INFO 8328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-03 00:10:22.359  INFO 8328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-03 00:10:22.360  INFO 8328 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-03 00:10:22.416  INFO 8328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-03 00:10:22.479  WARN 8328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-03 00:10:22.589  INFO 8328 --- [restartedMain] HotelBookingsManagementSystemApplication : Started HotelBookingsManagementSystemApplication in 0.68 seconds (JVM running for 1570.588)
+2023-02-03 01:26:48.876  INFO 8328 --- [http-nio-2002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-03 01:27:45.351  INFO 13200 --- [restartedMain] HotelBookingsManagementSystemApplication : Starting HotelBookingsManagementSystemApplication using Java 17.0.5 on INLEN8520069523 with PID 13200 (C:\MySpringBootWork\HotelBookingsManagementSystem\bin\main started by riebim in C:\MySpringBootWork\HotelBookingsManagementSystem)
+2023-02-03 01:27:45.353  INFO 13200 --- [restartedMain] HotelBookingsManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-03 01:27:46.847  INFO 13200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-03 01:27:46.847  INFO 13200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-03 01:27:46.906  INFO 13200 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-03 01:27:47.078  INFO 13200 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-03 01:27:47.113  INFO 13200 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-03 01:27:47.251  INFO 13200 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-03 01:27:47.332  INFO 13200 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-03 01:27:47.614  INFO 13200 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-03 01:27:47.635  INFO 13200 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-03 01:27:48.149  INFO 13200 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-03 01:27:48.523  WARN 13200 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-03 01:27:48.896  INFO 13200 --- [restartedMain] HotelBookingsManagementSystemApplication : Started HotelBookingsManagementSystemApplication in 3.88 seconds (JVM running for 4.36)
+2023-02-03 01:28:08.179  INFO 13200 --- [http-nio-2002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-03 01:28:08.211  WARN 13200 --- [http-nio-2002-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2023-02-03 01:30:29.367  WARN 13200 --- [http-nio-2002-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2023-02-03 01:32:19.819  INFO 14212 --- [restartedMain] HotelBookingsManagementSystemApplication : Starting HotelBookingsManagementSystemApplication using Java 17.0.5 on INLEN8520069523 with PID 14212 (C:\MySpringBootWork\HotelBookingsManagementSystem\bin\main started by riebim in C:\MySpringBootWork\HotelBookingsManagementSystem)
+2023-02-03 01:32:19.821  INFO 14212 --- [restartedMain] HotelBookingsManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-03 01:32:21.052  INFO 14212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-03 01:32:21.054  INFO 14212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-03 01:32:21.120  INFO 14212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-03 01:32:21.292  INFO 14212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-03 01:32:21.330  INFO 14212 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-03 01:32:21.474  INFO 14212 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-03 01:32:21.566  INFO 14212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-03 01:32:21.804  INFO 14212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-03 01:32:21.817  INFO 14212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-03 01:32:22.308  INFO 14212 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-03 01:32:22.686  WARN 14212 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-03 01:32:23.064  INFO 14212 --- [restartedMain] HotelBookingsManagementSystemApplication : Started HotelBookingsManagementSystemApplication in 3.58 seconds (JVM running for 4.054)
+2023-02-03 01:32:47.750  INFO 14212 --- [http-nio-2002-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-03 01:33:48.231  INFO 14212 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-03 01:33:48.233  INFO 14212 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-03 01:33:48.243  INFO 14212 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-03 01:33:48.248  INFO 14212 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-03 01:33:48.326  INFO 14212 --- [restartedMain] HotelBookingsManagementSystemApplication : Starting HotelBookingsManagementSystemApplication using Java 17.0.5 on INLEN8520069523 with PID 14212 (C:\MySpringBootWork\HotelBookingsManagementSystem\bin\main started by riebim in C:\MySpringBootWork\HotelBookingsManagementSystem)
+2023-02-03 01:33:48.326  INFO 14212 --- [restartedMain] HotelBookingsManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-03 01:33:48.576  INFO 14212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-03 01:33:48.577  INFO 14212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-03 01:33:48.596  INFO 14212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-03 01:33:48.631  INFO 14212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-03 01:33:48.636  INFO 14212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-03 01:33:48.791  INFO 14212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-03 01:33:48.792  INFO 14212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-03 01:33:48.856  INFO 14212 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-03 01:33:48.924  WARN 14212 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-03 01:33:49.039  INFO 14212 --- [restartedMain] HotelBookingsManagementSystemApplication : Started HotelBookingsManagementSystemApplication in 0.744 seconds (JVM running for 90.028)
+2023-02-03 01:33:52.343  INFO 14212 --- [http-nio-2002-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-03 01:34:05.573  INFO 6060 --- [restartedMain] HotelBookingsManagementSystemApplication : Starting HotelBookingsManagementSystemApplication using Java 17.0.5 on INLEN8520069523 with PID 6060 (C:\MySpringBootWork\HotelBookingsManagementSystem\bin\main started by riebim in C:\MySpringBootWork\HotelBookingsManagementSystem)
+2023-02-03 01:34:05.574  INFO 6060 --- [restartedMain] HotelBookingsManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-03 01:34:06.955  INFO 6060 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-03 01:34:06.956  INFO 6060 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-03 01:34:07.016  INFO 6060 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-03 01:34:07.179  INFO 6060 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-03 01:34:07.215  INFO 6060 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-03 01:34:07.334  INFO 6060 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-03 01:34:07.415  INFO 6060 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-03 01:34:07.683  INFO 6060 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-03 01:34:07.696  INFO 6060 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-03 01:34:08.137  INFO 6060 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-03 01:34:08.491  WARN 6060 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-03 01:34:08.850  INFO 6060 --- [restartedMain] HotelBookingsManagementSystemApplication : Started HotelBookingsManagementSystemApplication in 3.602 seconds (JVM running for 4.042)
+2023-02-03 01:34:26.393  INFO 6060 --- [http-nio-2002-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-03 01:35:13.324  INFO 19832 --- [restartedMain] HotelBookingsManagementSystemApplication : Starting HotelBookingsManagementSystemApplication using Java 17.0.5 on INLEN8520069523 with PID 19832 (C:\MySpringBootWork\HotelBookingsManagementSystem\bin\main started by riebim in C:\MySpringBootWork\HotelBookingsManagementSystem)
+2023-02-03 01:35:13.326  INFO 19832 --- [restartedMain] HotelBookingsManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-03 01:35:14.457  INFO 19832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-03 01:35:14.458  INFO 19832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-03 01:35:14.517  INFO 19832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-03 01:35:14.686  INFO 19832 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-03 01:35:14.720  INFO 19832 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-03 01:35:14.854  INFO 19832 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-03 01:35:14.932  INFO 19832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-03 01:35:15.165  INFO 19832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-03 01:35:15.180  INFO 19832 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-03 01:35:15.586  INFO 19832 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-03 01:35:15.942  WARN 19832 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-03 01:35:16.295  INFO 19832 --- [restartedMain] HotelBookingsManagementSystemApplication : Started HotelBookingsManagementSystemApplication in 3.342 seconds (JVM running for 3.877)
+2023-02-03 01:37:01.527  INFO 19832 --- [http-nio-2002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-03 01:43:36.896  INFO 19832 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-03 01:43:36.897  INFO 19832 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-03 01:43:36.906  INFO 19832 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-03 01:43:36.915  INFO 19832 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-03 01:43:36.997  INFO 19832 --- [restartedMain] HotelBookingsManagementSystemApplication : Starting HotelBookingsManagementSystemApplication using Java 17.0.5 on INLEN8520069523 with PID 19832 (C:\MySpringBootWork\HotelBookingsManagementSystem\bin\main started by riebim in C:\MySpringBootWork\HotelBookingsManagementSystem)
+2023-02-03 01:43:36.998  INFO 19832 --- [restartedMain] HotelBookingsManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-03 01:43:56.251  INFO 12236 --- [restartedMain] HotelBookingsManagementSystemApplication : Starting HotelBookingsManagementSystemApplication using Java 17.0.5 on INLEN8520069523 with PID 12236 (C:\MySpringBootWork\HotelBookingsManagementSystem\bin\main started by riebim in C:\MySpringBootWork\HotelBookingsManagementSystem)
+2023-02-03 01:43:56.252  INFO 12236 --- [restartedMain] HotelBookingsManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-03 01:43:57.394  INFO 12236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-03 01:43:57.394  INFO 12236 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-03 01:43:57.459  INFO 12236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-03 01:43:57.630  INFO 12236 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-03 01:43:57.666  INFO 12236 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-03 01:43:57.787  INFO 12236 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-03 01:43:57.869  INFO 12236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-03 01:43:58.181  INFO 12236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-03 01:43:58.196  INFO 12236 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-03 01:43:58.673  INFO 12236 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-03 01:43:59.049  WARN 12236 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-03 01:43:59.249  WARN 12236 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Invalid mapping on handler class [com.cg.hbm.controller.TransactionsController]: public org.springframework.http.ResponseEntity com.cg.hbm.controller.TransactionsController.getTransactionByTransactionId(int) throws com.cg.hbm.exception.InvalidInputDataException
+2023-02-03 01:43:59.254  INFO 12236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-03 01:43:59.266  INFO 12236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-03 01:43:59.270  INFO 12236 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-03 01:43:59.315 ERROR 12236 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid mapping pattern detected: /{/transactionId}
+  ^
+Expected close capture character after variable name }
+
+Action:
+
+Fix this pattern in your application or switch to the legacy parser implementation with 'spring.mvc.pathmatch.matching-strategy=ant_path_matcher'.
+
+2023-02-03 01:45:17.967  INFO 13304 --- [restartedMain] HotelBookingsManagementSystemApplication : Starting HotelBookingsManagementSystemApplication using Java 17.0.5 on INLEN8520069523 with PID 13304 (C:\MySpringBootWork\HotelBookingsManagementSystem\bin\main started by riebim in C:\MySpringBootWork\HotelBookingsManagementSystem)
+2023-02-03 01:45:17.968  INFO 13304 --- [restartedMain] HotelBookingsManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-03 01:45:19.128  INFO 13304 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-03 01:45:19.129  INFO 13304 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-03 01:45:19.191  INFO 13304 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-03 01:45:19.398  INFO 13304 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-03 01:45:19.435  INFO 13304 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-03 01:45:19.569  INFO 13304 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-03 01:45:19.652  INFO 13304 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-03 01:45:19.931  INFO 13304 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-03 01:45:19.946  INFO 13304 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-03 01:45:20.410  INFO 13304 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-03 01:45:20.773  WARN 13304 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-03 01:45:21.147  INFO 13304 --- [restartedMain] HotelBookingsManagementSystemApplication : Started HotelBookingsManagementSystemApplication in 3.551 seconds (JVM running for 4.031)
+2023-02-03 01:45:43.587  INFO 13304 --- [http-nio-2002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-03 01:45:43.981  WARN 13304 --- [http-nio-2002-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.hbm.exception.InvalidInputDataException: No review exists with this key = 2]
+2023-02-03 04:51:09.780  INFO 17924 --- [restartedMain] HotelBookingsManagementSystemApplication : Starting HotelBookingsManagementSystemApplication using Java 17.0.5 on INLEN8520069523 with PID 17924 (C:\MySpringBootWork\HotelBookingsManagementSystem\bin\main started by riebim in C:\MySpringBootWork\HotelBookingsManagementSystem)
+2023-02-03 04:51:09.781  INFO 17924 --- [restartedMain] HotelBookingsManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-03 04:51:11.129  INFO 17924 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-03 04:51:11.129  INFO 17924 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-03 04:51:11.202  INFO 17924 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-03 04:51:11.405  INFO 17924 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-03 04:51:11.449  INFO 17924 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-03 04:51:11.586  INFO 17924 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-03 04:51:11.675  INFO 17924 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-03 04:51:11.914  INFO 17924 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-03 04:51:11.929  INFO 17924 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-03 04:51:12.439  INFO 17924 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-03 04:51:12.819  WARN 17924 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-03 04:51:13.190  INFO 17924 --- [restartedMain] HotelBookingsManagementSystemApplication : Started HotelBookingsManagementSystemApplication in 3.727 seconds (JVM running for 4.203)
+2023-02-03 04:52:00.090  INFO 17924 --- [http-nio-2002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-03 04:53:57.218  WARN 17924 --- [http-nio-2002-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.hbm.exception.InvalidInputDataException: No review exists with this key = 4]
+2023-02-03 07:21:15.892  INFO 17924 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-03 07:21:15.894  INFO 17924 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-03 07:21:15.901  INFO 17924 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-03 07:21:15.904  INFO 17924 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-03 07:21:15.980  INFO 17924 --- [restartedMain] HotelBookingsManagementSystemApplication : Starting HotelBookingsManagementSystemApplication using Java 17.0.5 on INLEN8520069523 with PID 17924 (C:\MySpringBootWork\HotelBookingsManagementSystem\bin\main started by riebim in C:\MySpringBootWork\HotelBookingsManagementSystem)
+2023-02-03 07:21:15.980  INFO 17924 --- [restartedMain] HotelBookingsManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-03 07:21:16.237  INFO 17924 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-03 07:21:16.238  INFO 17924 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-03 07:21:16.254  INFO 17924 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-03 07:21:16.293  INFO 17924 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-03 07:21:16.299  INFO 17924 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-03 07:21:16.406  INFO 17924 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-03 07:21:16.406  INFO 17924 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-03 07:21:16.442  INFO 17924 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-03 07:21:16.505  WARN 17924 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-03 07:21:16.627  INFO 17924 --- [restartedMain] HotelBookingsManagementSystemApplication : Started HotelBookingsManagementSystemApplication in 0.674 seconds (JVM running for 9007.57)
+2023-02-03 08:58:02.963  WARN 17924 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h36m16s442ms788µs).
+2023-02-03 09:10:32.142  WARN 17924 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=5m29s39ms889µs200ns).
+2023-02-03 09:29:56.964  INFO 17992 --- [restartedMain] HotelBookingsManagementSystemApplication : Starting HotelBookingsManagementSystemApplication using Java 17.0.5 on INLEN8520069523 with PID 17992 (C:\MySpringBootWork\HotelBookingsManagementSystem\bin\main started by riebim in C:\MySpringBootWork\HotelBookingsManagementSystem)
+2023-02-03 09:29:56.965  INFO 17992 --- [restartedMain] HotelBookingsManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-03 09:29:58.322  INFO 17992 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-03 09:29:58.322  INFO 17992 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-03 09:29:58.395  INFO 17992 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-03 09:29:58.595  INFO 17992 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-03 09:29:58.633  INFO 17992 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-03 09:29:58.771  INFO 17992 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-03 09:29:58.855  INFO 17992 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-03 09:29:59.160  INFO 17992 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-03 09:29:59.178  INFO 17992 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-03 09:29:59.785  INFO 17992 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-03 09:30:00.215  WARN 17992 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-03 09:30:00.607  INFO 17992 --- [restartedMain] HotelBookingsManagementSystemApplication : Started HotelBookingsManagementSystemApplication in 4.015 seconds (JVM running for 4.512)
+2023-02-03 09:30:22.335  INFO 17992 --- [http-nio-2002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-03 09:31:13.942  WARN 17992 --- [http-nio-2002-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.hbm.exception.InvalidInputDataException: No review exists with this key = 3]
