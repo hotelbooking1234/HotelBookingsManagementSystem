@@ -1,0 +1,120 @@
+2023-02-03 07:46:24.825  INFO 13084 --- [restartedMain] com.cg.hbm.HotelBookingApp1Application   : Starting HotelBookingApp1Application using Java 17.0.5 on inlen8520069503 with PID 13084 (C:\MySpringWorkBook\HotelBookingApp1\bin\main started by tsatrapa in C:\MySpringWorkBook\HotelBookingApp1)
+2023-02-03 07:46:24.841  INFO 13084 --- [restartedMain] com.cg.hbm.HotelBookingApp1Application   : No active profile set, falling back to 1 default profile: "default"
+2023-02-03 07:46:26.526  INFO 13084 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-03 07:46:26.527  INFO 13084 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-03 07:46:26.633  INFO 13084 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-03 07:46:26.876  INFO 13084 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-03 07:46:26.940  INFO 13084 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-03 07:46:27.156  INFO 13084 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-03 07:46:27.266  INFO 13084 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-03 07:46:27.836  INFO 13084 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-03 07:46:27.861  INFO 13084 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-03 07:46:28.630  INFO 13084 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-03 07:46:28.647  INFO 13084 --- [restartedMain] c.c.hbm.controller.ReviewRestController  : ---Review Controller Called --
+2023-02-03 07:46:28.647  WARN 13084 --- [restartedMain] c.c.hbm.controller.ReviewRestController  : ---Review Controller Called --
+2023-02-03 07:46:29.094  WARN 13084 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-03 07:46:29.546  INFO 13084 --- [restartedMain] com.cg.hbm.HotelBookingApp1Application   : Started HotelBookingApp1Application in 5.233 seconds (JVM running for 5.875)
+2023-02-03 07:47:14.835  INFO 18932 --- [restartedMain] com.cg.hbm.HotelBookingApp1Application   : Starting HotelBookingApp1Application using Java 17.0.5 on inlen8520069503 with PID 18932 (C:\MySpringWorkBook\HotelBookingApp1\bin\main started by tsatrapa in C:\MySpringWorkBook\HotelBookingApp1)
+2023-02-03 07:47:14.837  INFO 18932 --- [restartedMain] com.cg.hbm.HotelBookingApp1Application   : No active profile set, falling back to 1 default profile: "default"
+2023-02-03 07:47:16.338  INFO 18932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-03 07:47:16.338  INFO 18932 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-03 07:47:16.442  INFO 18932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-03 07:47:16.644  INFO 18932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-03 07:47:16.689  INFO 18932 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-03 07:47:16.850  INFO 18932 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-03 07:47:16.947  INFO 18932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-03 07:47:17.392  INFO 18932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-03 07:47:17.407  INFO 18932 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-03 07:47:17.999  INFO 18932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-03 07:47:18.022  INFO 18932 --- [restartedMain] c.c.hbm.controller.ReviewRestController  : ---Review Controller Called --
+2023-02-03 07:47:18.023  WARN 18932 --- [restartedMain] c.c.hbm.controller.ReviewRestController  : ---Review Controller Called --
+2023-02-03 07:47:18.442  WARN 18932 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-03 07:47:18.926  INFO 18932 --- [restartedMain] com.cg.hbm.HotelBookingApp1Application   : Started HotelBookingApp1Application in 4.677 seconds (JVM running for 5.605)
+2023-02-03 07:48:27.833  INFO 18932 --- [http-nio-2004-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-03 07:48:28.360  INFO 18932 --- [http-nio-2004-exec-2] c.c.hbm.controller.ReviewRestController  : ---->> Review savedReview(reviewId=1, hotelId=0, reviewDate=2023-01-01, roomId=1, userName=praveena, userReviewMsge=average, starRating=3, verifiedStatus=true)
+2023-02-03 07:49:46.528  INFO 18932 --- [http-nio-2004-exec-5] c.c.hbm.controller.ReviewRestController  : ---->> Review savedReview(reviewId=2, hotelId=0, reviewDate=2023-01-01, roomId=2, userName=anil, userReviewMsge=good to stay ,food is good, starRating=4, verifiedStatus=true)
+2023-02-03 07:50:22.542  INFO 18932 --- [http-nio-2004-exec-6] c.c.hbm.controller.ReviewRestController  : ---->> Review savedReview(reviewId=3, hotelId=0, reviewDate=2023-01-01, roomId=2, userName=arun, userReviewMsge=good to stay ,food is good, starRating=4, verifiedStatus=true)
+2023-02-03 07:51:19.987  INFO 18932 --- [http-nio-2004-exec-7] c.c.hbm.controller.ReviewRestController  : ---->> Review savedReview(reviewId=4, hotelId=0, reviewDate=2023-01-23, roomId=3, userName=teja, userReviewMsge=nice stay, starRating=4, verifiedStatus=true)
+2023-02-03 07:53:30.775  INFO 18932 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-03 07:53:30.778  INFO 18932 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-03 07:53:30.795  INFO 18932 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-03 07:53:30.824  INFO 18932 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-03 07:53:31.021  INFO 18932 --- [restartedMain] com.cg.hbm.HotelBookingApp1Application   : Starting HotelBookingApp1Application using Java 17.0.5 on inlen8520069503 with PID 18932 (C:\MySpringWorkBook\HotelBookingApp1\bin\main started by tsatrapa in C:\MySpringWorkBook\HotelBookingApp1)
+2023-02-03 07:53:31.022  INFO 18932 --- [restartedMain] com.cg.hbm.HotelBookingApp1Application   : No active profile set, falling back to 1 default profile: "default"
+2023-02-03 07:53:31.604  INFO 18932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-03 07:53:31.608  INFO 18932 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-03 07:53:31.645  INFO 18932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-03 07:53:31.708  INFO 18932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-03 07:53:31.716  INFO 18932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-03 07:53:31.951  INFO 18932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-03 07:53:31.952  INFO 18932 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-03 07:53:32.082  INFO 18932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-03 07:53:32.095  INFO 18932 --- [restartedMain] c.c.hbm.controller.ReviewRestController  : ---Review Controller Called --
+2023-02-03 07:53:32.095  WARN 18932 --- [restartedMain] c.c.hbm.controller.ReviewRestController  : ---Review Controller Called --
+2023-02-03 07:53:32.295  WARN 18932 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-03 07:53:32.620  INFO 18932 --- [restartedMain] com.cg.hbm.HotelBookingApp1Application   : Started HotelBookingApp1Application in 1.74 seconds (JVM running for 379.254)
+2023-02-03 07:54:36.083  INFO 4708 --- [restartedMain] com.cg.hbm.HotelBookingApp1Application   : Starting HotelBookingApp1Application using Java 17.0.5 on inlen8520069503 with PID 4708 (C:\MySpringWorkBook\HotelBookingApp1\bin\main started by tsatrapa in C:\MySpringWorkBook\HotelBookingApp1)
+2023-02-03 07:54:36.084  INFO 4708 --- [restartedMain] com.cg.hbm.HotelBookingApp1Application   : No active profile set, falling back to 1 default profile: "default"
+2023-02-03 07:54:37.653  INFO 4708 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-03 07:54:37.654  INFO 4708 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-03 07:54:37.772  INFO 4708 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-03 07:54:37.987  INFO 4708 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-03 07:54:38.032  INFO 4708 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-03 07:54:38.271  INFO 4708 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-03 07:54:38.420  INFO 4708 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-03 07:54:38.856  INFO 4708 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-03 07:54:38.874  INFO 4708 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-03 07:54:39.493  INFO 4708 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-03 07:54:39.516  INFO 4708 --- [restartedMain] c.c.hbm.controller.ReviewRestController  : ---Review Controller Called --
+2023-02-03 07:54:39.516  WARN 4708 --- [restartedMain] c.c.hbm.controller.ReviewRestController  : ---Review Controller Called --
+2023-02-03 07:54:39.994  WARN 4708 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-03 07:54:40.465  INFO 4708 --- [restartedMain] com.cg.hbm.HotelBookingApp1Application   : Started HotelBookingApp1Application in 4.909 seconds (JVM running for 5.496)
+2023-02-03 07:54:57.733  INFO 14012 --- [restartedMain] com.cg.hbm.HotelBookingApp1Application   : Starting HotelBookingApp1Application using Java 17.0.5 on inlen8520069503 with PID 14012 (C:\MySpringWorkBook\HotelBookingApp1\bin\main started by tsatrapa in C:\MySpringWorkBook\HotelBookingApp1)
+2023-02-03 07:54:57.735  INFO 14012 --- [restartedMain] com.cg.hbm.HotelBookingApp1Application   : No active profile set, falling back to 1 default profile: "default"
+2023-02-03 07:55:00.039  INFO 14012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-03 07:55:00.041  INFO 14012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-03 07:55:00.171  INFO 14012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-03 07:55:00.481  INFO 14012 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-03 07:55:00.576  INFO 14012 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-03 07:55:00.753  INFO 14012 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-03 07:55:00.884  INFO 14012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-03 07:55:01.372  INFO 14012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-03 07:55:01.393  INFO 14012 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-03 07:55:02.039  INFO 14012 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-03 07:55:02.059  INFO 14012 --- [restartedMain] c.c.hbm.controller.ReviewRestController  : ---Review Controller Called --
+2023-02-03 07:55:02.059  WARN 14012 --- [restartedMain] c.c.hbm.controller.ReviewRestController  : ---Review Controller Called --
+2023-02-03 07:55:02.484  WARN 14012 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-03 07:55:02.899  INFO 14012 --- [restartedMain] com.cg.hbm.HotelBookingApp1Application   : Started HotelBookingApp1Application in 5.962 seconds (JVM running for 6.956)
+2023-02-03 07:55:39.048  INFO 14012 --- [http-nio-2004-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-03 07:55:39.621  INFO 14012 --- [http-nio-2004-exec-2] c.c.hbm.controller.ReviewRestController  : ---->> Review savedReview(reviewId=1, hotelId=1, reviewDate=2023-01-23, roomId=1, userName=teja, userReviewMsge=nice stay, starRating=4, verifiedStatus=true)
+2023-02-03 07:56:35.447  INFO 14012 --- [http-nio-2004-exec-3] c.c.hbm.controller.ReviewRestController  : ---->> Review savedReview(reviewId=2, hotelId=1, reviewDate=2022-01-23, roomId=2, userName=arun, userReviewMsge=food is tasty in this hotel, starRating=4, verifiedStatus=true)
+2023-02-03 07:57:26.661  INFO 14012 --- [http-nio-2004-exec-4] c.c.hbm.controller.ReviewRestController  : ---->> Review savedReview(reviewId=3, hotelId=2, reviewDate=2022-10-22, roomId=3, userName=devi, userReviewMsge=friendly staff, starRating=4, verifiedStatus=true)
+2023-02-03 07:58:32.062  INFO 14012 --- [http-nio-2004-exec-7] c.c.hbm.controller.ReviewRestController  : ---->> Review savedReview(reviewId=4, hotelId=3, reviewDate=2022-10-22, roomId=3, userName=pavi, userReviewMsge=friendly staff, starRating=4, verifiedStatus=true)
+2023-02-03 07:59:12.732  INFO 14012 --- [http-nio-2004-exec-8] c.c.hbm.controller.ReviewRestController  : ---->> Review savedReview(reviewId=5, hotelId=3, reviewDate=2021-10-22, roomId=5, userName=ranjith, userReviewMsge=rude staff, starRating=2, verifiedStatus=false)
+2023-02-03 08:00:18.029  INFO 14012 --- [http-nio-2004-exec-1] c.c.hbm.controller.ReviewRestController  : ---->> Review savedReview(reviewId=6, hotelId=3, reviewDate=2021-10-10, roomId=5, userName=praveen, userReviewMsge=hotel to near to main road, starRating=3, verifiedStatus=true)
+2023-02-03 08:00:33.975  INFO 14012 --- [http-nio-2004-exec-2] c.c.hbm.controller.ReviewRestController  : ---->> Review savedReview(reviewId=7, hotelId=2, reviewDate=2021-10-10, roomId=5, userName=uma, userReviewMsge=hotel to near to main road, starRating=3, verifiedStatus=true)
+2023-02-03 08:00:53.859  INFO 14012 --- [http-nio-2004-exec-3] c.c.hbm.controller.ReviewRestController  : ---->> Review savedReview(reviewId=8, hotelId=1, reviewDate=2021-10-10, roomId=5, userName=bobby, userReviewMsge=hotel to near to main road, starRating=3, verifiedStatus=true)
+2023-02-03 08:01:24.516  INFO 14012 --- [http-nio-2004-exec-4] c.c.hbm.controller.ReviewRestController  : ---->> Review savedReview(reviewId=9, hotelId=5, reviewDate=2021-10-10, roomId=5, userName=sai, userReviewMsge=food is good in this hotel, starRating=4, verifiedStatus=true)
+2023-02-03 08:01:40.511  INFO 14012 --- [http-nio-2004-exec-5] c.c.hbm.controller.ReviewRestController  : ---->> Review savedReview(reviewId=10, hotelId=7, reviewDate=2021-10-10, roomId=5, userName=pranu, userReviewMsge=food is good in this hotel, starRating=4, verifiedStatus=true)
+2023-02-03 08:04:34.179  WARN 14012 --- [http-nio-2004-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-02-03 08:06:32.731  INFO 14012 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-03 08:06:32.733  INFO 14012 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-03 08:06:32.778  INFO 14012 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-03 08:06:32.791  INFO 14012 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-03 08:06:32.914  INFO 14012 --- [restartedMain] com.cg.hbm.HotelBookingApp1Application   : Starting HotelBookingApp1Application using Java 17.0.5 on inlen8520069503 with PID 14012 (C:\MySpringWorkBook\HotelBookingApp1\bin\main started by tsatrapa in C:\MySpringWorkBook\HotelBookingApp1)
+2023-02-03 08:06:32.916  INFO 14012 --- [restartedMain] com.cg.hbm.HotelBookingApp1Application   : No active profile set, falling back to 1 default profile: "default"
+2023-02-03 08:06:33.318  INFO 14012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-03 08:06:33.319  INFO 14012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-03 08:06:33.350  INFO 14012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-03 08:06:33.413  INFO 14012 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-03 08:06:33.421  INFO 14012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-03 08:06:33.657  INFO 14012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-03 08:06:33.658  INFO 14012 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-03 08:06:33.745  INFO 14012 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-03 08:06:33.753  INFO 14012 --- [restartedMain] c.c.hbm.controller.ReviewRestController  : ---Review Controller Called --
+2023-02-03 08:06:33.753  WARN 14012 --- [restartedMain] c.c.hbm.controller.ReviewRestController  : ---Review Controller Called --
+2023-02-03 08:06:33.900  WARN 14012 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-03 08:06:34.093  INFO 14012 --- [restartedMain] com.cg.hbm.HotelBookingApp1Application   : Started HotelBookingApp1Application in 1.23 seconds (JVM running for 698.15)
+2023-02-03 08:06:45.797  INFO 14012 --- [http-nio-2004-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-03 08:06:45.815  WARN 14012 --- [http-nio-2004-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.hbm.exceptions.review.InvalidInputDataException: No review exists with this key = 2]
+2023-02-03 08:07:52.199  WARN 14012 --- [http-nio-2004-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.hbm.exceptions.review.InvalidInputDataException: No review exists with this key = 20]
